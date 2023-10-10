@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Chivo+Mono&family=Kanit:wght@500&family=Lobster&family=Merriweather:wght@300;700;900&family=Montserrat:wght@100&family=Oswald:wght@200;400;500;600;700&family=Quicksand:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;1,100&family=Rubik+Dirt&family=Rubik+Moonrocks&family=Russo+One&family=Vina+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 230, 230);
+}
+.small-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 2px rgb(52, 54, 54);
+    
+}
+.head1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.head1 h4{
+    /* margin-top: 35px;
+    padding-right: 20px; */
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+.head2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+.head2 li{
+    list-style-type: none;
+    letter-spacing: 1.5px;
+   
+}
+.head2 a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.icon-head{
+    width: 10%;
+    text-align: center;
+}
+.icon-head i{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* profile-time */
+.photo{
+    width: 100%;
+}
+.photo .image{
+    width: 100%;
+    height: 30%;
+}
+.image .image1{
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(162, 211, 195, 0.801);
+}
+.image .image2{
+    margin-top: -150px;
+    margin-left: 180px;
+}
+.image .image2 ul{
+    display: flex;
+    margin-left: 270px;
+    margin-top: -135px;
+}
+.image .image2 ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.image .image2 ul li a{
+    text-decoration: white underline;
+    color: rgba(0, 0, 0, 0.849);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+}
+.image .image2 ul li:hover a{
+    background: #cf7171;
+}
+/* .container-time-start */
+.container{
+    width: 50%;
+    height: 65vh;
+    background-color: #fff;
+    margin-top: -40%;
+    margin-left: 610px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.container .names h3{
+    padding: 30px 60px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000000ce;
+    letter-spacing: 2px;
+}
+.container .names h2{
+    padding: 0px 60px 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+
+}
+.container .first{
+    margin-top: 20px;
+    padding: 0 60px;
+    display: flex; 
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000ce;
+}
+.container .first .nelly{
+    padding-left: 60px;
+}
+.container .second{
+    margin-top: 20px;
+    padding: 0 60px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #000000ce;
+}
+.container .second .nelly{
+    padding-left: 170px;
+}
+.second a{
+    text-decoration: none;
+    color: #eb1414a2;
+}
+.container .third{
+    margin-top: 20px;
+    padding: 0 60px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000ce;
+}
+.container .third .nelly{
+    padding-left: 100px;
+}
+.third a{
+    text-decoration: none;
+    color: #eb1414a2;
+}
+.container .fourth{
+    margin-top: 20px;
+    padding: 0 60px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000ce;
+}
+.container .fourth .nelly{
+    padding-left: 108px;
+}
+.fourth a{
+    text-decoration: none;
+    color: #eb1414a2;
+}
+.container .five{
+    margin-top: 20px;
+    padding: 0 60px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000ce;
+}
+.container .five .nelly{
+    padding-left: 145px;
+}
+.five a{
+    text-decoration: none;
+    color: #eb1414a2;
+}
+.container .sixth{
+    margin-top: 20px;
+    padding: 0 60px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000ce;
+}
+.container .sixth .nelly{
+    padding-left: 148px;
+}
+/* .container-part=end-here */
+
+/* .container1-start */
+.container1{
+    width: 40%;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-left: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.container1 .head3{
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+.container1 h3{
+    /* margin-left: 10px; */
+    color: #cf7171;
+    padding-right: 50px;
+}
+.container1 .image{
+    display: flex;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+.container1 .image img{
+    padding: 5px;
+}
+
+/* footer--time */
+
+/* footer-time */
+.footer{
+    background-color: rgb(26, 25, 25);
+    margin-top: 70px;
+    padding-top: 20px;
+}
+.footer-container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.footer1{
+    width: 33.333%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer1 h3{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.footer1 p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.404);
+}
+
+/* footer2 start */
+.footer2{
+    width: 33.333%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer2 h3{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.footer2 ul li{
+    list-style-type: none;
+    padding: 1px;
+}
+.footer2 a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffffffe1;
+    font-family: 'Kanit', sans-serif;
+}
+.footer2 ul li:hover a{
+    background: #40b1ab;
+}
+.footer2 ul{
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* footer3 start */
+.footer3{
+    width: 33.333%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer3 h3{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.footer3 li{
+    list-style-type: none;
+    padding: 4px;
+}
+.end-div{
+    text-align: center;
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer-paragraph{
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 3px;
+    padding-top: 15px;
+}
+
